@@ -5,9 +5,9 @@ on:
     branches:
       - 'main'
       - 'feature**'
-  delete:
-    branches:
-      - 'feature**'
+  #delete:
+   # branches:
+    #  - 'feature**'
 
 env:
   SAM_TEMPLATE: template.yaml
